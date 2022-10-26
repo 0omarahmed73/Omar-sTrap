@@ -1,0 +1,66 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li,ul {
+    all: unset;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+  font-family: "Cairo", sans-serif;
+  color: white;
+  text-align: center;
+}
+.container {
+    padding: 0 20px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+
+/* Media Queries */
+
+@media (min-width : 1400px) {
+    .container {
+        max-width: 70%;
+    }
+    
+}
+
+@media (max-width : 670px) {
+    .container {
+        max-width: 90% !important;
+    }
+    
+}
+
+@media (max-width : 400px) {
+    .container 
+    {
+        max-width: 100% !important;
+    }
+
+}
